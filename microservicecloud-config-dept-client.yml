@@ -9,7 +9,7 @@ mybatis:
    type-aliases-package: com.mfw.springcloud.entity
    mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-   profile: dev
+   profiles: dev
    application:
       name: microservicecloud-dept-config-client
    datasource: 
@@ -43,7 +43,7 @@ mybatis:
    type-aliases-package: com.mfw.springcloud.entity
    mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-   profile: test
+   profiles: test
    application:
       name: microservicecloud-dept-config-client
    datasource: 
